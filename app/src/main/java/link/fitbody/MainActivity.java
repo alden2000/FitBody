@@ -51,7 +51,7 @@ public class MainActivity extends MotherActivity {
 
         if (item.getItemId() == R.id.info_item) {
             int spannableColor = ContextCompat.getColor(this, R.color.primary_text);
-            String infoText = "FIT BODY\nVladimir Dresevic\nITAcademy\nLINK GROUP\n" + Calendar.getInstance().get(Calendar.YEAR);
+            String infoText = "FIT BODY\nAlden Efendic\nITAcademy\nLINK GROUP\n" + Calendar.getInstance().get(Calendar.YEAR);
 
             Spannable spannable = new SpannableString(infoText);
             spannable.setSpan(new ForegroundColorSpan(spannableColor), 0, infoText.indexOf("\n"), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
